@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build generated files
+dist
+lib
+lib-dts
+lib-commonjs
+lib-esm
+jest-output
+release
+temp
+.heft
+
+# SharePoint package: only the ready-to-deploy .sppkg is versioned
+sharepoint/solution/*
+!sharepoint/solution/*.sppkg
+
+# Coverage
+coverage
+
+# OS / editors
+.DS_Store
+.vs
+.ntvs_analysis.dat
+bin
+obj
+
+# Generated code
+*.resx.ts
+*.scss.ts
+
+# Local notes and AI assistant files
+CLAUDE.md
+.claude/

@@ -1,0 +1,9 @@
+# SPFx pins its toolchain versions: npm dependencies are upgraded by hand with
+# each SPFx release. Dependabot only keeps the GitHub Actions up to date
+# (security alerts for npm stay enabled in the repository settings).
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
